@@ -1,0 +1,42 @@
+body {
+  background-color: #c9c9c9;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+.Profile-pic {
+  border-radius: 50%;
+}
+
+.Profile-pic-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.name {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+a {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: 2px solid #838383;
+  text-decoration: none;
+  background-color: #6a6969;
+  font-size: 20px;
+  margin: 10px;
+  padding: 5px;
+  color: black;
+}
+
+a:hover {
+  transform: scale(1.005);
+  box-shadow: 2px 2px 5px 1px #4e4e4e;
+}
